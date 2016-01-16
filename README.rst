@@ -23,6 +23,8 @@ Usage
 
 ``python -m electionpeeker``
 
+.. image:: assets/result-2016.png
+
 
 License
 ========
