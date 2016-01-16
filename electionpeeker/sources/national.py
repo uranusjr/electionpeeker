@@ -1,5 +1,3 @@
-import math
-
 from ..crawler import TableCrawler
 from ..entities import Party
 from ..utils import parse_vote_count
@@ -22,10 +20,10 @@ def calculate_round_1(vote_counts):
 def calculate_round_2(round_1_result):
     remaining = TOTAL_SEATS - sum(int(row[1]) for row in round_1_result)
     result = [
-        Party(name, math.ceil(count))
+        Party(name, int(count) + 1)
         for name, count in round_1_result[:remaining]
     ] + [
-        Party(name, math.floor(count))
+        Party(name, int(count))
         for name, count in round_1_result[remaining:]
     ]
     return result
