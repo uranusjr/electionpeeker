@@ -2,11 +2,6 @@
 偷看立委開票狀況
 ===============
 
-.. raw:: html
-
-    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-
-
 我很想即時知道 2016 大選立委最終席次預估，但都沒網站做這種東西。所以就自己做了。
 
 方法既簡單而暴力，就是直接 crawl `中選會的網站`_，把該拿的拿回來，根據選罷法的規則算出目前票數的當選狀況。
@@ -23,4 +18,13 @@ Requirements
 * ``pip install -r requirements.txt``
 
 
-_`中選會的網站`: http://www.cec.gov.tw/zh_TW/IDX/indexT.html
+License
+========
+
+.. image:: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+    :target: http://creativecommons.org/licenses/by-sa/4.0/
+
+姓名標示-相同方式分享 4.0 (CC BY-SA 4.0)。詳細內容請點上面的圖片。
+
+
+.. _`中選會的網站`: http://www.cec.gov.tw/zh_TW/IDX/indexT.html
