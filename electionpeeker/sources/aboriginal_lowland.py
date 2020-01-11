@@ -3,7 +3,7 @@ from ..entities import Person
 from ..utils import parse_vote_count
 
 
-URL = 'http://www.cec.gov.tw/zh_TW/T2/n000000000000000.html'
+URL = 'https://www.cec.gov.tw/pc/zh_TW/L2/n00000000000000000.html'
 TOTAL_SEATS = 3
 
 

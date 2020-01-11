@@ -35,4 +35,4 @@ License
 姓名標示-相同方式分享 4.0 (CC BY-SA 4.0)。詳細內容請點上面的圖片。
 
 
-.. _`中選會的網站`: http://www.cec.gov.tw/zh_TW/IDX/indexT.html
+.. _`中選會的網站`: https://www.cec.gov.tw/pc/zh_TW/IDX/indexT.html
